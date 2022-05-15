@@ -27,7 +27,7 @@ public class ActivitiesController {
     }
 
 
-    @PostMapping("/post")
+    @PostMapping("/AddTask")
     public void newActivities(@RequestBody Activities  activities){
         activitiesservice.addActivities(activities);
     }
@@ -44,5 +44,6 @@ public class ActivitiesController {
         activitiesservice.updateActivities(status, ID);
             return status;
     }
+
 
 }
