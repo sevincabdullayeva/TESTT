@@ -1,0 +1,16 @@
+###
+POST http://localhost:8080/api/v1/activities
+Content-Type: application/json
+{
+"healthdiet":"a",
+"selfimprovament":"h",
+"age":0
+}
+
+<> 2022-05-08T145419.400.html
+<> 2022-05-08T145413.400.html
+<> 2022-05-08T145352.400.html
+<> 2022-05-08T145242.400.html
+<> 2022-05-08T144514.415.json
+
+###
